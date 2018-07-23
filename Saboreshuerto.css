@@ -1,0 +1,307 @@
+/**
+*store sabores
+*Autor: marco Diaz
+*junio-julio-2018
+*/
+
+/*login y canasta se ponen verdes*/
+#cshero-header-top .header-right-top .login-wrap button:hover{
+	color:#35a937;
+}
+#cshero-header-top .header-right-top .shop-cart:hover .cart-img i{
+
+	color:#35a937;
+}
+#cshero-header-top .header-right-top .shop-cart:hover .cart-product span{
+	color:#35a937;
+}
+/*menu*/
+#cshero-header-inner #cshero-header-navigation .menu-main-menu > ul > li, #cshero-header-inner #cshero-header-navigation .menu-main-menu > ul > ul > li, #cshero-header-inner #cshero-header-navigation .menu-main-menu > li, #cshero-header-inner #cshero-header-navigation .menu-main-menu > ul > li{
+	padding: 3px 25px;
+}
+/*NAV*/
+
+
+#cshero-header-inner #cshero-header-navigation .menu-main-menu > ul > li > a .menu-title::after, #cshero-header-inner #cshero-header-navigation .menu-main-menu > ul > ul > li > a .menu-title::after, #cshero-header-inner #cshero-header-navigation .menu-main-menu > li > a .menu-title::after, #cshero-header-inner #cshero-header-navigation .menu-main-menu > ul > li > a .menu-title::after{
+	background:#2f9631 !important;
+}
+#cshero-header-inner #cshero-header-navigation .menu-main-menu, #cshero-header-inner #cshero-header-navigation .cshero-navigation-right{
+	float: left;
+}
+#cshero-header-inner #cshero-header-wrapper{
+	min-height:100px;
+}
+#cshero-header-inner.header-2 #cshero-header{
+	height:100px;
+}
+
+/*lugar del logo */
+#cshero-header-inner #cshero-header #cshero-header-logo{
+	height:100px;
+	line-height:100px;
+}
+#cshero-header-inner #cshero-header #cshero-header-logo a{
+	line-height: 100px;
+}
+/*Tamaño del logo*/
+.header-logo3{
+	padding-top:9px;
+	padding-bottom:9px;
+}
+.header-logo3 img{
+	max-height: 95px;
+}
+#cshero-header-inner #cshero-header #cshero-header-logo img{
+	max-height:90px;
+	padding-left:163px;
+}
+/* Transforma inicial la letra*/
+#cshero-header-navigation .main-navigation .menu-main-menu > ul > li > a, #cshero-header-navigation .main-navigation .menu-main-menu > li > a{
+	text-transform: initial;
+}
+#cshero-header-navigation .main-navigation li ul li a{
+	text-transform:initial;
+}
+/*LETRA OPEN SANS */
+.custom-font-3, footer#footer-layout1.footer2 #cshero-footer-top .widget-title, footer#footer-layout3 #cshero-footer-top .widget-title, .style2 .widget_newsletterwidget form .tnp-submit{
+	font-family: "Open Sans";
+}
+.custom-font-2{
+	font-family: "Open Sans";
+}
+/* TAMAÑOS LETRAS  */
+.cms-pricing-layout2 .cms-pricing-item-inner .cms-pricing-price{
+
+    font-size: 22px;
+    letter-spacing: 0.02em;
+	  margin-top: 20px;
+
+}
+.cms-pricing-layout2 .cms-pricing-item-inner .cms-pricing-title h3{
+
+    font-size: 22px;
+    letter-spacing: 0.02em;
+	  margin-bottom:1em;
+}
+.cms-pricing-layout2 .cms-pricing-item-inner .cms-ordernow a{
+	 height: 50px;
+   line-height: 50px;
+   font-size: 20px;
+   letter-spacing: 0.005em;
+}
+.cms-pricing-layout2 .cms-pricing-item-inner .cms-pricing-content{
+	letter-spacing:0.002em;
+	line-height:25px;
+}
+.template-cms_grid--product-list .cshero-woo-meta .cshero-product-title h3, .template-cms_grid--product-top-sellers .cshero-woo-meta .cshero-product-title h3{
+	text-transform:initial;
+	line-height:25px;
+	font-size:18px;
+	letter-spacing:0.005em;
+}
+
+.woocommerce .woocommerce-style-1 .pr-single-product .product_title, .woocommerce .woocommerce-style-2 .pr-single-product .product_title{
+	text-transform:initial;
+	font-size:18px;
+	line-height:18px;
+}
+.woocommerce .woocommerce-style-1 .pr-single-product .woo-price span, .woocommerce .woocommerce-style-2 .pr-single-product .woo-price span{
+	font-size:20px;
+}
+.woocommerce .woocommerce-style-1 .pr-single-product .cms-related-products-wrapper .cshero-product-title h3, .woocommerce .woocommerce-style-2 .pr-single-product .cms-related-products-wrapper .cshero-product-title h3{
+	font-size:15px;
+	letter-spacing:0.001em;
+	text-transform:initial;
+}.template-cms_grid--product-great .cms-grid-filter ul li a{
+	font-size:15px;
+	letter-spacing:0.001em;
+}
+.cms-grid-filter .cms-filter-category li a span{
+	line-height:20px;
+
+}
+.template-cms_grid--product-great .cms-grid-filter ul li a span{
+	padding:0px 0px;
+}
+.template-cms_grid--product-list .price span, .template-cms_grid--product-top-sellers .price span{
+	font-size:20px;
+}
+/* frutas verduras carne higiene*/
+.template-cms_fancybox_single--layout7 .cms-fancybox-item h5{
+	font-size:33px;
+	line-height:38px;
+	padding-bottom:18px;
+}
+/* Titulo productos pagina PRODUCTOS*/
+.product-archive-style2 .cshero-woo-meta .cshero-product-title h3{
+	font-size:16px;
+	text-transform:initial;
+	letter-spacing:0.001em;
+	line-height:17px;
+	padding-bottom:5px;
+}
+
+
+/*Posicion de los botones*/
+.template-cms_grid--product-list .cshero-woo-meta .price-add-to-cart a.add_to_cart_button, .template-cms_grid--product-top-sellers .cshero-woo-meta .price-add-to-cart a.add_to_cart_button, .template-cms_grid--product-list .cshero-woo-meta .price-add-to-cart .added_to_cart, .template-cms_grid--product-top-sellers .cshero-woo-meta .price-add-to-cart .added_to_cart{
+
+	position:absolute;
+	text-align:center;
+}
+.template-cms_grid--product-list .cshero-woo-meta .price-add-to-cart .price, .template-cms_grid--product-top-sellers .cshero-woo-meta .price-add-to-cart .price{
+	text-align:center;
+	position:absolute;
+	top:67%;
+
+}
+.quantity{
+	text-align:center;
+	position:relative;
+	padding-bottom:5px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	padding:0 8px;
+	text-align: center;
+	font-size:15px;
+	min-width:113px;
+
+	height:32px;
+}
+/*Precio en la categoria del los productos relacionados */
+.woocommerce .woocommerce-style-1 .pr-single-product .cms-related-products-wrapper .price-add-to-cart .price, .woocommerce .woocommerce-style-2 .pr-single-product .cms-related-products-wrapper .price-add-to-cart .price{
+	position:absolute;
+	top:70%;
+	left:44%;
+}
+
+/* Boton Añadir en productos relacionados */
+.woocommerce .woocommerce-style-1 .pr-single-product .cms-related-products-wrapper .price-add-to-cart > a.add_to_cart_button, .woocommerce .woocommerce-style-2 .pr-single-product .cms-related-products-wrapper .price-add-to-cart > a.add_to_cart_button, .woocommerce .woocommerce-style-1 .pr-single-product .cms-related-products-wrapper .price-add-to-cart .added_to_cart, .woocommerce .woocommerce-style-2 .pr-single-product .cms-related-products-wrapper .price-add-to-cart .added_to_cart, .woocommerce .woocommerce-style-1 .pr-single-product .cms-related-products-wrapper .price-add-to-cart .ajax_add_to_cart, .woocommerce .woocommerce-style-2 .pr-single-product .cms-related-products-wrapper .price-add-to-cart .ajax_add_to_cart{
+	left:34%;
+
+}
+/*Pagina de PRODUCTOS */
+/*BOTON DE AÑADIR*/
+.woocommerce div.product form.cart .button{
+	top:73%;
+	padding-bottom:5px;
+	float:none;
+}
+/*Ver carrito*/
+.product-archive-style2 .cshero-woo-meta .price-add-to-cart .add_to_cart_button, .product-archive-style2 .cshero-woo-meta .price-add-to-cart .added_to_cart, .product-archive-style2 .cshero-woo-meta .price-add-to-cart .ajax_add_to_cart{
+	top:72%;
+	min-width:152px;
+}
+/*precio*/
+.product-archive-style2 .cshero-woo-meta .price-add-to-cart .price > span, .product-archive-style2 .cshero-woo-meta .price-add-to-cart .price > del, .product-archive-style2 .cshero-woo-meta .price-add-to-cart .price > ins{
+	left:70%;
+	padding-bottom:5px;
+}
+.product-archive-style2 .cshero-woo-meta .price-add-to-cart .price{
+	top:70%;
+	left:50%;
+	padding-top:3px;
+	padding-bottom:5px;
+}
+.woocommerce div.product form.cart div.quantity{
+	position:relative;
+
+	padding-bottom:25px;
+	width:100%;
+}
+.woocommerce .quantity input.qty{
+	width:33%;
+}
+/*ESTRELLAS*/
+.woocommerce .star-rating::before, .woocommerce .star-rating span::before {
+    content: '\f006\f006\f006\f006\f006';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/*Ajustando Caja Cantidad*/
+.woocommerce .woocommerce-style-1 .pr-single-product .quantity .qty, .woocommerce .woocommerce-style-2 .pr-single-product .quantity .qty
+{
+	position: absolute;
+  top: 6px;
+  left: 27px;
+}
+/*mas productos */
+.template-cms_grid--product-great .cms-grid-product .price-add-to-cart .price{
+
+	top:66%;
+}
+.woocommerce .woocommerce-style-1 .pr-single-product .quantity, .woocommerce .woocommerce-style-2 .pr-single-product .quantity{
+	width:100%;
+	position:absolute;
+	align-content:center;
+	left:-50%;
+
+}
+.woocommerce .cshero-woo-image{
+	height:305px;
+	line-height:305px;
+	text-align:center;
+}
+.woocommerce .cshero-woo-image img{
+	max-height:300px;
+	line-height:300px;
+	display: inline-block;
+	padding-top:15px;
+}
+.woocommerce .cshero-product-title h3{
+	height:50px;
+	margin: 10px 30px;
+	line-height:18px;
+	font-size:16px;
+	text-transform:initial;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+	padding-left:5px;
+}
+/*WHISH_LIST*/
+.yith-wcwl-add-to-wishlist{
+	margin: 10px 0;
+	height:36px;
+}
+.wishlist_table .add_to_cart.button, .yith-wcwl-add-button a.add_to_wishlist, .yith-wcwl-popup-button a.add_to_wishlist, .wishlist_table a.ask-an-estimate-button, .wishlist-title a.show-title-form, .hidden-title-form a.hide-title-form, .woocommerce .yith-wcwl-wishlist-new button, .wishlist_manage_table a.create-new-wishlist, .wishlist_manage_table button.submit-wishlist-changes, .yith-wcwl-wishlist-search-form button.wishlist-search-button{
+	position:relative;
+	left:3%;
+}
+/*tienda*/
+.cms-heading-wrapper.cms-heading-layout5 .title{
+	font-size:40px;
+	letter-spacing:0.0em;
+}
+#page-title #page-title-text h1{
+	font-size:24px;
+	letter-spacing:-0.042em;
+	line-height: 30px;
+	text-transform:uppercase;
+}
+body.post-type-archive-product #page-title #page-title-text h1{
+	font-size:30px;
+	letter-spacing:0.0em;
+	margin-bottom:20px;
+}
+/* vista 2 */
+.product-archive-style2 .content-product-list .cshero-woo-meta .price-add-to-cart .price{
+	right:81px;
+	top:69px;
+}
+.woocommerce div.product form.cart .variations select{
+	width:175px;
+	position: relative;
+	right:160px;
+	height:32px;
+	top:7px;
+
+}
+.woocommerce div.product form.cart .variations label{
+	font-weight: 700;
+}
+.vc_custom_heading{
+	word-break: initial;
+}
