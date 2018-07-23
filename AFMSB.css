@@ -1,0 +1,19 @@
+/*Asociacion Franco
+*Author: Marco Diaz
+*descripcion: Estilo menu y logo
+*fecha 23 julio 2018
+*/
+#hc-header .hc-site-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+#hc-header .hc-main-menu ul > li {
+	margin:20px 30px;
+	display:inline-block;
+	position:relative;
+	right:60px;
+}
+#hc-header .hc-site-logo.left{
+	background-color:#161616;
+}
